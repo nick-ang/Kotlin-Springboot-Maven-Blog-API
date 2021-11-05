@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.*
 import java.util.*
 import javax.validation.Valid
 
-@CrossOrigin("*")
+/**
+ * Created by rajeevkumarsingh on 04/10/17.
+ */
+
 @RestController
 @RequestMapping("/api")
 class ArticleController(private val articleRepository: ArticleRepository) {
