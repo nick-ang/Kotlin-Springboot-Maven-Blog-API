@@ -7,6 +7,11 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.util.*
 import javax.validation.Valid
+import org.springframework.web.bind.annotation.RequestMethod.POST
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
+import org.springframework.http.MediaType.APPLICATION_JSON_VALUE
+
 
 /**
  * Created by rajeevkumarsingh on 04/10/17.
@@ -21,7 +26,13 @@ class ArticleController(private val articleRepository: ArticleRepository) {
             articleRepository.findAll()
 
 
-    @PostMapping("/articles")
+//    @PostMapping("/articles")
+    @RequestMapping(
+        path = ["/articles"],
+        method = [POST],
+        produces = [APPLICATION_JSON_VALUE],
+        consumes = [APPLICATION_JSON_VALUE]
+    )
     fun createNewArticle(@Valid @RequestBody article: Article): Article =
             articleRepository.save(article)
 
