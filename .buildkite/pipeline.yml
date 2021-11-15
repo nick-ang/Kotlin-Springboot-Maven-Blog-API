@@ -1,4 +1,3 @@
 steps:
-  - label: App tests
-    command:
-      - ../tests.sh
+  - commands:
+      - "mvn test"

@@ -59,3 +59,7 @@ Unexpected IOException with stream: 2021-11-16 00:11:17.986  INFO 12948 --- [ion
 Unexpected IOException with stream: 2021-11-16 00:11:17.988  INFO 12948 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
 
 
+# Created at 2021-11-16T00:11:19.730
+Unexpected IOException with stream: 2021-11-16 00:11:19.728  INFO 12948 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+
