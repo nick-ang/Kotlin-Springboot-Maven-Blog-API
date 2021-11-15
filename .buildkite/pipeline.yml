@@ -1,0 +1,6 @@
+steps:
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
+
+  - command: "tests.sh"
+    label: App tests
