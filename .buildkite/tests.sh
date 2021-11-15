@@ -1,1 +1,3 @@
-- "mvn test"
+#!/usr/bin/env bash
+
+mvn test
