@@ -1,4 +1,4 @@
 steps:
   - label: App tests
     command:
-      - ./buildkite/scripts/tests.sh
+      - ../tests.sh

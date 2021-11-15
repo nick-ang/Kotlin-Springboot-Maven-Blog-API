@@ -1,0 +1,61 @@
+# Created at 2021-11-16T00:11:16.011
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2021-11-16T00:11:16.017
+Unexpected IOException with stream: 2021-11-16 00:11:16.016  INFO 12948 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-11-16T00:11:16.020
+Unexpected IOException with stream: 2021-11-16 00:11:16.020  INFO 12948 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-11-16T00:11:16.214
+Unexpected IOException: 6,1,com.example.kotlindemo.controller.ArticleControllerTest,should return 200 when a new article is added,null,null,null
+
+
+# Created at 2021-11-16T00:11:16.215
+Unexpected IOException: 5,1,com.example.kotlindemo.controller.ArticleControllerTest,updateArticleById,null,null,null
+
+
+# Created at 2021-11-16T00:11:16.218
+Unexpected IOException: 6,1,com.example.kotlindemo.controller.ArticleControllerTest,updateArticleById,null,null,null
+
+
+# Created at 2021-11-16T00:11:16.219
+Unexpected IOException: 5,1,com.example.kotlindemo.controller.ArticleControllerTest,getArticleById,null,null,null
+
+
+# Created at 2021-11-16T00:11:16.221
+Unexpected IOException: 6,1,com.example.kotlindemo.controller.ArticleControllerTest,getArticleById,null,null,null
+
+
+# Created at 2021-11-16T00:11:16.222
+Unexpected IOException: 5,1,com.example.kotlindemo.controller.ArticleControllerTest,should return 200 when articles endpoint receives a GET request,null,null,null
+
+
+# Created at 2021-11-16T00:11:17.874
+Unexpected IOException: 6,1,com.example.kotlindemo.controller.ArticleControllerTest,should return 200 when articles endpoint receives a GET request,null,null,null
+
+
+# Created at 2021-11-16T00:11:17.875
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.kotlindemo.controller.ArticleControllerTest,null,null,null
+
+
+# Created at 2021-11-16T00:11:17.984
+Unexpected IOException with stream: 2021-11-16 00:11:17.983  INFO 12948 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+
+# Created at 2021-11-16T00:11:17.987
+Unexpected IOException with stream: 2021-11-16 00:11:17.986  INFO 12948 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-11-16T00:11:17.988
+Unexpected IOException with stream: 2021-11-16 00:11:17.988  INFO 12948 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+
+
