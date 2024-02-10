@@ -1,0 +1,22 @@
+# fly.toml app configuration file generated for kotlin-springboot-maven-blog-api-white-water-7328 on 2024-02-10T21:49:37+11:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'kotlin-springboot-maven-blog-api-white-water-7328'
+primary_region = 'syd'
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 1024
