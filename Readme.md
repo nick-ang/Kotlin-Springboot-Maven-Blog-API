@@ -7,7 +7,7 @@ Built a Restful CRUD API using Kotlin, Spring Boot, AWS RDS/EC2, Docker, JPA, Bu
 
 ## Hosting: 
 
-Hosted on render https://nang-blog.onrender.com via jar file running in docker container. 
+Hosted on render https://kotlin-springboot-maven-blog-api-white-water-7328.fly.dev via jar file running in docker container. 
 To run locally, build the jar with maven and run the jar.
 
 ## Persistence:
