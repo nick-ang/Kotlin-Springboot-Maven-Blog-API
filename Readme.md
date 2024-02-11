@@ -11,3 +11,11 @@ MySql Admin: https://phpmyadmin.freedb.tech/
 
 Hosted on render https://nang-blog.onrender.com via jar file running in docker container. 
 To run locally, build the jar with maven and run the jar.
+
+Hosted on render https://nang-blog.onrender.com via jar file running in docker container.
+To run locally, build the jar with maven and run the jar.
+
+DB Schema is as follows:
+
+![img_1.png](img_1.png)
+![img.png](img.png)
